@@ -1,8 +1,3 @@
-"""
-  Run this file at first, in order to see what is it printing. Instead of the print() use the respective log level
-"""
-
-############################### LOGGER
 from abc import ABC, abstractmethod
 from loguru import logger
 import numpy as np
@@ -14,7 +9,6 @@ matplotlib.use('TkAgg')
 
 
 class Bandit(ABC):
-    ##==== DO NOT REMOVE ANYTHING FROM THIS CLASS ====##
 
     @abstractmethod
     def __init__(self, p):
@@ -38,9 +32,6 @@ class Bandit(ABC):
 
     @abstractmethod
     def report(self):
-        # store data in csv
-        # print average reward (use f strings to make it informative)
-        # print average regret (use f strings to make it informative)
         pass
 
 
