@@ -8,7 +8,8 @@ This project analyzes customer churn in a telecommunications dataset using Accel
 
 ### 1. Clone the Repository and Navigate to HW3
 
-git clone <https://github.com/arpine2004/Homework.git> cd Homework/HW3
+git clone <https://github.com/arpine2004/Homework.git> 
+cd Homework/HW3
 
 ### 2. Create Virtual Environment
 
@@ -28,7 +29,7 @@ pip install -r requirements.txt
 
 jupyter notebook
 
-Then open your .ipynb file in the browser.
+Then open the Survival_Analysis.ipynb file in the browser.
 
 ### 6. Deactivate (when done)
 
